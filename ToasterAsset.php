@@ -4,7 +4,7 @@ namespace dashboard\toaster;
 
 use yii\web\AssetBundle;
 
-class ToasterAssets extends AssetBundle {
+class ToasterAsset extends AssetBundle {
     public $sourcePath = '@vendor/dashboard/toaster/assets';
     public $css = [
         'css/toaster.min.css',
